@@ -3,7 +3,7 @@
 Plugin Name: The inflatable Penguin Galleria
 Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
 Description: Simple implementation of io-gallaria.
-Version: 0.5.0
+Version: 0.6.0
 Author: Jeppe Fastrup
 Author URI: http://theinflatablepenguin.com
 License: Properitary
