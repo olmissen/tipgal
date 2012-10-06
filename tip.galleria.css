@@ -33,15 +33,13 @@ css file for The inflatable Penguins simple gallery based on io galleria.
     position: relative;
     overflow: hidden;
     background-color: #121212 !important;
-    height: 100%
+    height: 100%;
     width: 100%;
     z-index: 199;
 }
 .galleria-container img {
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
 }
+
 .galleria-stage {
     position: absolute;
     top: 10px;
@@ -66,23 +64,23 @@ css file for The inflatable Penguins simple gallery based on io galleria.
 }
 
 #closeit{
-	z-index: 201;
+	z-index: 201 !important;
     position: fixed;
     display:none;
-    background-color: none;
     text-align: right;
     width: 100%;
     height:1%;
     top:0px;
     left:0px;
+    opacity: 1 !important;
 }
 
-#closeit img{
-    padding-top: 10px;
-    padding-right: 1em;
+#closeit #closeit-img{
+    margin-top: 10px;
+    margin-right: 12px;
     width: 30px;
     height: 30px;
-    z-index: 202;
+    z-index: 202 !important;
 }
 
 .galleria-counter{
